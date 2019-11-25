@@ -1,0 +1,169 @@
+html{
+    background-color: black;
+}
+body {
+    background-color: white ;
+    max-width: 50% ;
+    margin: 0 auto;
+    padding-left: 20px ;
+    font-family: arial ;    
+}
+
+header {
+    max-width: 100%;
+    padding-top: 35px ;
+    font-size: 45px ;
+    font-weight: bold ;
+}
+
+.rating {
+    white-space: nowrap ;
+}
+li{
+  display: inline-block ; 
+  position: relative ;
+  right: 20px;
+  bottom: 17 px;
+}
+li p{
+    position: relative;
+    right: -30px;
+}
+.price{
+    position: relative;
+    bottom: 30px;
+}
+.price .small-text{
+    display: inline-block;
+    position: relative;
+    left:67px ;
+}
+h2 {
+    display: inline-block;
+    font-size: 30px;
+    color: red;
+}
+small{
+   font-weight: lighter;
+   color: lightgray ;
+}
+.comments strong{
+   font-size: 13px;
+   padding-left: 30px;
+}
+.color-display .circles li{
+   
+   border: 7px solid white ;
+   max-width: 100% ;
+   width: 35px;
+   height: 35px;
+   border-radius: 35px;
+   position: relative;
+   top: 3px;
+}
+.color-display .circles li:hover {
+     border: 5px solid white ;
+     box-shadow:
+    0 0 0 2px grey;
+/*    0 0 0 15px red;*/
+   max-width: 100% ;
+   width: 40px;
+   height: 40px;
+   border-radius: 40px;
+   position: relative;
+   top: 3px;
+}
+.selection .selectors #quantity{
+   border: 2px solid grey ;
+   max-width: 100% ;
+   width: 70px;
+   height: 50px;
+   border-radius: 30px;
+}
+.selection .selectors #shop{
+   border: 2px solid grey ;
+   max-width: 100% ;
+   width: 280px;
+   height: 50px;
+   border-radius: 30px;
+   position: relative;
+   left: 0px;  
+   background-color: black;
+}
+.selection{   
+   position: relative;
+   left:auto;
+}
+.selection strong#cart{
+   position: absolute;
+   left:210px;
+   bottom: 22px;
+   color: white;   
+}
+.selection strong#cart-quantity{
+   position: absolute;
+   left:53px;
+   bottom: 22px;   
+}
+input {
+   position: absolute;
+   top: -2px;
+   left: -4px;
+   z-index: -1 ;
+   width: 33px;
+   height: 33px;  
+}
+input:checked{
+   position: absolute;
+   top: -2px;
+   left: -4px;
+   z-index: -1 ;
+   width: 33px;
+   height: 33px;
+   background-color: blue;
+}
+@media screen and (max-width: 566px) {
+   header,h2{
+     max-width: 100% ; 
+   }
+   
+   .rating {
+     white-space: normal ;
+   }
+   .rating li p{
+     display:block ;
+     max-width: 100% ;
+   }
+   .selectors{
+     max-width: 100% ; 
+   }
+   .price p{
+     display:block ;
+     max-width: 100% ;  
+   }
+   .selection .selectors{
+      display:block ;
+      max-width: 100% ;
+   }
+ strong{
+   max-width: auto ;
+}
+li p{
+    max-width: 100%;
+    display: block;
+    position: relative;
+    right: 0px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
