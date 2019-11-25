@@ -122,7 +122,14 @@ input:checked{
    height: 33px;
    background-color: blue;
 }
-@media screen and (max-width: 566px) {
+@media screen and (max-width: 500px) {
+   body {
+    background-color: white ;
+    max-width: 100% ;
+    margin: 0 auto;
+    font-family: arial ;    
+}
+   
    header,h2{
      max-width: 100% ; 
    }
@@ -146,6 +153,7 @@ input:checked{
       max-width: 100% ;
    }
  strong{
+    position: static;
    max-width: auto ;
 }
 li p{
